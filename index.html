@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorteio de Nomes</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sorteio de Nomes</h1>
+    </header>
+    <main>
+      <form>
+        <label for="nameInput">Digite os nomes:</label>
+        <div class="input-group">
+          <textarea id="nameInput" placeholder="Separe os nomes por vírgulas ou quebras de linha"></textarea>
+          <button type="button" id="addButton"><i class="fas fa-plus"></i>Adicionar</button>
+        </div>
+      </form>
+      <div class="button-group">
+        <button type="button" id="sortButton" disabled>Sortear</button>
+        <button type="button" id="clearButton" disabled>Limpar</button>
+      </div>
+      <ul id="namesList"></ul>
+      <p id="result"></p>
+    </main>
+    <script src="https://kit.fontawesome.com/6d2b6e8aa6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
